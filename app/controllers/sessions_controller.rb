@@ -24,6 +24,10 @@ class SessionsController < ApplicationController
     redirect_to login_path
   end
 
+  def sign_up
+
+  end
+
 private
 
 def logged_in_redirect
